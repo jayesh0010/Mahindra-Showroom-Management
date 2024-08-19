@@ -1,0 +1,83 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0 10px; 
+    height: 50px; 
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 18px; 
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin: 0 10px; 
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 50px; 
+}
+
+.navbar-links a:hover {
+    text-decoration: unerline;
+    color : yellow;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.hero .info {
+    max-width: 100%; 
+    text-align: center; 
+}
+
+.hero h2 {
+    font-size: 36px; 
+    margin-bottom: 10px; 
+}
+
+.hero p {
+    font-size: 20px; 
+}
+
+.car-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.car {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+.car h3, .car p {
+    margin: 10px 0;
+}

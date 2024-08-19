@@ -1,0 +1,123 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0 10px; 
+    height: 50px; 
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 18px; 
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin: 0 10px; 
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 50px; 
+}
+
+.navbar-links a:hover {
+    text-decoration: unerline;
+    color : yellow;
+}
+
+
+
+.hero {
+    background-image: url('/images/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero .info button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero .info button:hover {
+    background-color: #e6b800;
+}
+
+/* Form styling */
+.form-container {
+    background-color: #f4f4f4;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+}
+
+.form-container::before {
+    content: '';
+    background-image: url('/images/car-icon.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.form-container input {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-container button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container button:hover {
+    background-color: rgb(255, 255, 128);
+    color:black;
+}

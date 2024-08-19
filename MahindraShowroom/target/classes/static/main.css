@@ -1,0 +1,86 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0 10px; 
+    height: 50px; 
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 18px; 
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin: 0 10px; 
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 50px; 
+}
+
+.navbar-links a:hover {
+    text-decoration: unerline;
+    color : yellow;
+}
+
+
+.hero {
+    background-image: url('/3x0.webp');
+    background-size: 100%; 
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-top: 70px; 
+}
+
+.hero .info {
+    z-index: 2;
+    position: relative;
+    text-align: left; 
+    padding: 20px; 
+    max-width: 400px; 
+    margin-right: 50px; 
+}
+
+.hero .info h2 {
+    font-size: 2.5em; 
+    margin-bottom: 15px;
+}
+
+.hero .info p,
+.hero .info button {
+    margin-bottom: 15px; 
+}
+
+.hero .info button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero .info button:hover {
+    background-color: #e6b800; 
+}
